@@ -15,7 +15,7 @@ function Profile() {
   const  { name, email, img, msg, bg } = location.state;
 
   return (
-    <div>
+    <div className='profile'>
       <Header 
         leftItem={<IoClose />}
         rightItem={<FaUser />}

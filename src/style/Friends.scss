@@ -1,6 +1,8 @@
 //Friends.scss
 @import '../style/style.scss';
-
+.friends header{
+    background-color: #fff;
+}
 main .search_box{
     display: flex;
     justify-content: center;

@@ -46,7 +46,7 @@ function Friends() {
 
   return (
     
-    <div>
+    <div className='friends'>
         <Header 
           bgColor="bgColor"
           title="Frends"

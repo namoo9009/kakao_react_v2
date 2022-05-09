@@ -1,3 +1,19 @@
+.profile {
+    header {
+        .statusBar{
+            color: #fff;
+        }
+        .titleBar {
+            .leftItem a svg{
+                color: #fff;
+            }
+            .rightItem a svg{
+                color: #fff;
+            }
+        }
+    }
+}
+
 .backgorund_main{
     padding-top: 0;
     .backgorund{
