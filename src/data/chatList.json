@@ -1,0 +1,51 @@
+[
+    {
+        "id":1,
+        "name": "Ian",
+        "profile_img": "https://placeimg.com/640/480/people/4200",
+        "last_msg": "Lorem ipsum dolor sit amet",
+        "last_time": "11:49" 
+    },
+    {
+        "id":2,
+        "name": "Jaclyn",
+        "profile_img": "https://placeimg.com/640/480/people/5200",
+        "last_msg": "consectetur adipiscing elit",
+        "last_time": "10:23" 
+    },
+    {
+        "id":3,
+        "name": "Abby",
+        "profile_img": "https://placeimg.com/640/480/people/62000",
+        "last_msg": "ed do eiusmod tempor incididunt ut labore",
+        "last_time": "10:02" 
+    },
+    {
+        "id":4,
+        "name": "Xiomara",
+        "profile_img": "https://placeimg.com/640/480/people/75000",
+        "last_msg": "Quis hendrerit dolor magna eget est lorem ipsum",
+        "last_time": "9:30" 
+    },
+    {
+        "id":5,
+        "name": "Macy",
+        "profile_img": "https://placeimg.com/640/480/people/9000",
+        "last_msg": "Nunc pulvinar sapien et ligula",
+        "last_time": "8:23" 
+    },
+    {
+        "id":6,
+        "name": "Gael",
+        "profile_img": "https://placeimg.com/640/480/people/875249",
+        "last_msg": " Arcu ac tortor dignissim convallis aenean",
+        "last_time": "7:01" 
+    },
+    {
+        "id":7,
+        "name": "Eden",
+        "profile_img": "https://placeimg.com/640/480/people/400857",
+        "last_msg": "morbi tempus",
+        "last_time": "어제" 
+    }
+]

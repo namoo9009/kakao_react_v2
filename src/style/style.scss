@@ -1,0 +1,32 @@
+// style.scss
+@import './reset.css';
+
+body{
+    font-size: 12px;
+}
+a:link,
+a:visited,
+a:hover,
+a:focus,
+a:active{
+    color: #000;
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+}
+
+main{
+    padding-top: 64px;
+    padding-bottom: 54px;
+    box-sizing: border-box;
+}
+.empty{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 10px 15px;
+    border-radius: 50%;
+    background: url(../images/empty.jpg) no-repeat 0 0;
+    background-size: cover;
+}

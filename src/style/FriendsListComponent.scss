@@ -1,0 +1,37 @@
+// FriendsListComponent.scss
+@import '../style/style.scss';
+
+.friends_list {
+    padding: 10px 0;
+    a{
+        display: inline-flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        font-size: 12px;
+        .profile_img{
+            margin-right: 15px;
+            display: block;
+            width: 40px;
+            height: 40px;
+            // margin: 10px 15px;
+            border-radius: 30%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+        }
+        .profile_name{
+            font-size: 16px;
+            flex: auto;
+        }
+        .profile_messages{
+            height: 30px;
+            line-height: 30px;
+            padding: 0 10px;
+            border-radius: 5px;
+            color: #8e9399;
+            background: #f0f0f0;
+    
+        }
+    }
+}

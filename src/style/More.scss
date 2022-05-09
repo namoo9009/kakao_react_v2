@@ -1,0 +1,148 @@
+.user_info{
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    height: 72px;
+    border-bottom: 1px solid #ebebeb;
+    .profile_img{
+        margin-right: 15px;
+        width: 50px;
+        height: 50px;
+        border-radius: 30%;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 50% 50%;
+    }
+    .profile_info{
+        flex: auto;
+        display: flex;
+        flex-direction: column;
+        .profile_name{
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .profile_email{
+            color: #8e9399;
+        }
+    }
+    .chats_icon{
+        font-size: 30px;
+        color: #513736;
+    }
+}
+
+.user_menu{
+    border-bottom: 1px solid #ebebeb;
+    ul{
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        width: 100%;
+        height: 100%;
+        li{
+            
+            height: 100%;
+            flex: 1;
+            &:hover{
+                transform: scale(1.1);
+            }
+            a{
+                padding: 20px 0;
+                width: 100%;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                color: #513736;
+                font-weight: bold;
+                svg{
+                    font-size: 30px;
+                    margin-bottom: 10px;
+                }
+            }
+        }
+    }
+}
+
+.plus_friends{
+    border-bottom: 1px solid #ebebeb;
+    .plus_header{
+        display: flex;
+        justify-content: space-between;
+        font-size: 16px;
+        padding: 10px 15px;
+        border-bottom: 1px solid #ebebeb;
+        span a{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #8e9399;
+            svg{
+                margin-right: 5px;
+                font-size: 20px;
+            }
+        }
+    }
+    .plus_list{
+        padding: 10px 15px;
+        display: flex;
+        flex-wrap: wrap;
+        li{
+            width: 50%;
+            height: 45px;
+            a{
+                display: flex;
+                align-items: center;
+                width: 100%;
+                height: 100%;
+                svg{
+                    margin-right: 15px;
+                    font-size: 18px;
+                }
+            }
+        }
+    }
+}
+
+.more_app{
+    padding: 15px;
+    ul{
+        width: 100%;
+        display: inline-flex;
+        flex-wrap: wrap;
+        li{
+            width: 80px;
+            text-align: center;
+            
+            a{
+                display: inline-flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                
+                span.app_icon{
+                    display: inline-block;
+                    width: 44px;
+                    height: 44px;
+                    margin-bottom: 10px;
+                }
+            }
+            &:nth-of-type(1) span.app_icon{
+                background: url(../images/kakaostory.png) no-repeat 50% 50%;
+                background-size: cover;
+            }
+            &:nth-of-type(2) span.app_icon{
+                background: url(../images/path.png) no-repeat 50% 50%;
+                background-size: cover;
+            }
+            &:nth-of-type(3) span.app_icon{
+                background: url(../images/kakaofriends.png) no-repeat 50% 50%;
+                background-size: cover;
+            }
+        }
+
+    }
+}
+
