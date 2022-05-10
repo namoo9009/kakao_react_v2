@@ -14,7 +14,7 @@ import { IoCaretDownOutline } from "react-icons/io5";
 function Chats() {
 
   return (
-    <div>
+    <div className='chats'>
         <Header 
           bgColor="bgColor"
           title="Chats"

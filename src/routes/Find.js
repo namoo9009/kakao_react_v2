@@ -8,7 +8,7 @@ import { MdPhoneAndroid, MdMail } from "react-icons/md";
 
 function Find() {
   return (
-    <div>
+    <div className='find'>
         <Header 
           bgColor="bgColor"
           title="Find"

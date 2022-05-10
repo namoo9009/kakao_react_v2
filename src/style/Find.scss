@@ -1,6 +1,21 @@
 // Find.scss
 @import '../style/style.scss';
 
+.find header{
+    background-color: #513736;
+    .statusBar{
+        color: #fff;
+    }
+    .titleBar{
+        color: #fff;
+        a{
+            color: #fff;
+        }
+        svg{
+            color: #fff;
+        }
+    }
+}
 .find_method{
     overflow: hidden;
     display: flex;

@@ -1,7 +1,19 @@
 //Friends.scss
 @import '../style/style.scss';
 .friends header{
-    background-color: #fff;
+    background-color: #513736;
+    .statusBar{
+        color: #fff;
+    }
+    .titleBar{
+        color: #fff;
+        a{
+            color: #fff;
+        }
+        svg{
+            color: #fff;
+        }
+    }
 }
 main .search_box{
     display: flex;

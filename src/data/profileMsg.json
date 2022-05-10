@@ -2,35 +2,35 @@
     {
         "id":1,
         "name": "Ian",
-        "profile_img": "https://placeimg.com/640/480/people/4200",
+        "profile_img": "https://placeimg.com/640/480/people/479854",
         "last_msg": "Lorem ipsum dolor sit amet",
         "last_time": "11:49" 
     },
     {
         "id":2,
         "name": "Jaclyn",
-        "profile_img": "https://placeimg.com/640/480/people/5200",
+        "profile_img": "https://placeimg.com/640/480/people/6408789",
         "last_msg": "consectetur adipiscing elit",
         "last_time": "10:23" 
     },
     {
         "id":3,
         "name": "Abby",
-        "profile_img": "https://placeimg.com/640/480/people/62000",
+        "profile_img": "https://placeimg.com/640/480/people/241897",
         "last_msg": "ed do eiusmod tempor incididunt ut labore",
         "last_time": "10:02" 
     },
     {
         "id":4,
         "name": "Xiomara",
-        "profile_img": "https://placeimg.com/640/480/people/75000",
+        "profile_img": "https://placeimg.com/640/480/people/7894218",
         "last_msg": "Quis hendrerit dolor magna eget est lorem ipsum",
         "last_time": "9:30" 
     },
     {
         "id":5,
         "name": "Macy",
-        "profile_img": "https://placeimg.com/640/480/people/9000",
+        "profile_img": "https://placeimg.com/640/480/people/176345",
         "last_msg": "Nunc pulvinar sapien et ligula",
         "last_time": "8:23" 
     },

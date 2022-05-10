@@ -1,15 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import Header from '../conponents/Header';
 import Nav from '../conponents/Nav';
 
 import myInfo from '../data/myInfo.json';
 
 import '../style/More.scss';
-import { IoSettingsSharp, IoChatbubbleEllipsesOutline, IoBrush } from "react-icons/io5";
-import { BsEmojiSmile, BsPersonPlusFill, BsBookmarkPlus, BsChatDots } from "react-icons/bs";
-import { FaUserFriends, FaRegSmileWink, FaSmileWink, FaUserEdit, FaPencilAlt, FaWonSign } from "react-icons/fa";
-import { MdManageAccounts, MdBrush, MdInfo, MdOutlineCastForEducation, MdAccountBalance, MdVideocam } from "react-icons/md";
+import { IoSettingsSharp, IoBrush } from "react-icons/io5";
+import { BsEmojiSmile, BsBookmarkPlus, BsChatDots } from "react-icons/bs";
+import { FaUserEdit, FaPencilAlt, FaWonSign } from "react-icons/fa";
+import { MdInfo, MdOutlineCastForEducation, MdAccountBalance, MdVideocam } from "react-icons/md";
 import { GiForkKnifeSpoon } from "react-icons/gi";
 import { IoMdAppstore } from "react-icons/io";
 import { GrChannel } from "react-icons/gr";
@@ -21,7 +20,7 @@ import '../style/style.scss';
 function More() {
 
   return (
-    <div>
+    <div className='more'>
       <Header 
         bgColor="bgColor"
         title="More"

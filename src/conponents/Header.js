@@ -7,7 +7,7 @@ import '../style/HeaderComponent.scss';
 
 function header({bgColor, title, count, leftItem, rightItem, centerItem}) {
   return (
-    <header className={{bgColor}}>
+    <header>
         <div className='statusBar'>
             <div className='leftItem'>
                 <span>

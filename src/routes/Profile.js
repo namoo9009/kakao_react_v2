@@ -4,7 +4,7 @@ import Header from '../conponents/Header';
 
 import '../style/style.scss';
 import '../style/Profile.scss';
-import { IoSettingsSharp, IoClose, IoChatbubbleSharp } from "react-icons/io5";
+import { IoClose, IoChatbubbleSharp } from "react-icons/io5";
 import { FaUser, FaPencilAlt } from "react-icons/fa";
 import { useLocation } from 'react-router-dom';
 
