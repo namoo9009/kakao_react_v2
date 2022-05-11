@@ -5,6 +5,7 @@ import Header from '../conponents/Header';
 import Nav from '../conponents/Nav';
 import FriendsList from '../conponents/FriendsList';
 import Search from '../conponents/Search';
+import Loading from '../conponents/Loading';
 
 import myInfo from '../data/myInfo.json';
 import profile from '../data/profile.json';
@@ -17,30 +18,43 @@ import { IoSettingsSharp } from "react-icons/io5";
 
 function Friends() {
   const [users, setUser] = useState([]);
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState(null);
+  const [loading, setLoading] = useState(true);
+  // const [error, setError] = useState(null);
 
-
-
+  const getUsers = async () => {
+    const response = await axios.get(
+      'https://jsonplaceholder.typicode.com/users'
+    );
+  
+    setUser(response.data);
+    setLoading(false);
+  }
   useEffect(() => {
-      const fetchUsers = async () => {
-          try {
-              setError(null);
-              setUser(null);
-              setLoading(true);
-              const response = await axios.get(
-                  'https://jsonplaceholder.typicode.com/users'
-              );
-
-              setUser(response.data);
-          } catch (e) {
-              setError(e);
-          }
-          setLoading(false);
-      };
-
-      fetchUsers();
+    getUsers();
   }, []);
+
+
+
+
+  // useEffect(() => {
+  //     const fetchUsers = async () => {
+  //         try {
+  //             setError(null);
+  //             setUser(null);
+  //             setLoading(true);
+  //             const response = await axios.get(
+  //                 'https://jsonplaceholder.typicode.com/users'
+  //             );
+
+  //             setUser(response.data);
+  //         } catch (e) {
+  //             setError(e);
+  //         }
+  //         setLoading(false);
+  //     };
+
+  //     fetchUsers();
+  // }, []);
 
 
 
@@ -75,16 +89,21 @@ function Friends() {
               <h2>Friends</h2>
             </div>
             <ul>
-              {users && users.map((user,idx) => (
-                <FriendsList 
-                  key = {user.id}
-                  name = {user.username}
-                  email = {user.email}
-                  msg = {profile[idx].msg}
-                  img = {profile[idx].profile_img}
-                  bg = {profile[idx].bg}
-                />
-              ))}
+              {loading ? (
+                <Loading />
+              ) : <div>
+                  {users && users.map((user,idx) => (
+                    <FriendsList 
+                      key = {user.id}
+                      name = {user.username}
+                      email = {user.email}
+                      msg = {profile[idx].msg}
+                      img = {profile[idx].profile_img}
+                      bg = {profile[idx].bg}
+                    />
+                  ))}
+                </div>
+              }
             </ul>
           </section>
         </main>
