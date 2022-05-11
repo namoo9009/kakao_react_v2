@@ -1,4 +1,4 @@
-# Chatting Talk_React
+# Chatting Talk_SCSS/React
 FlexBox 속성을 이용하여 레이아웃을 작성하였고, React의 숙련도를 높이기 위해 HTML과 CSS로 작성한 코드를 SCSS와 React로 변경.
 - 미리보기 : https://namoo9009.github.io/kakao_react_v2/
 
