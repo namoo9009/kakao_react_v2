@@ -33,31 +33,6 @@ function Friends() {
     getUsers();
   }, []);
 
-
-
-
-  // useEffect(() => {
-  //     const fetchUsers = async () => {
-  //         try {
-  //             setError(null);
-  //             setUser(null);
-  //             setLoading(true);
-  //             const response = await axios.get(
-  //                 'https://jsonplaceholder.typicode.com/users'
-  //             );
-
-  //             setUser(response.data);
-  //         } catch (e) {
-  //             setError(e);
-  //         }
-  //         setLoading(false);
-  //     };
-
-  //     fetchUsers();
-  // }, []);
-
-
-
   return (
     
     <div className='friends'>

@@ -5,7 +5,7 @@ import { IoAirplane, IoWifi, IoBluetooth, IoBatteryFull } from "react-icons/io5"
 import '../style/HeaderComponent.scss';
 
 
-function header({bgColor, title, count, leftItem, rightItem, centerItem}) {
+function header({bgColor, title, count, leftItem, rightItem, centerItem, linkTo}) {
   return (
     <header>
         <div className='statusBar'>

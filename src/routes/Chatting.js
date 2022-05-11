@@ -22,6 +22,7 @@ function Chatting() {
   return (
   <div>
       <Header
+        linkTo="chats"
         color='black'
         leftItem={<IoIosArrowBack />}
         title="Friend Name"

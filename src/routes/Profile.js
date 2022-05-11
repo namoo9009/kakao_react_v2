@@ -32,13 +32,13 @@ function Profile() {
             <input type='mail' className='profile_email' placeholder='UserID@gmail.com' />
             <ul className='profile_menu'>
               <li>
-                <a href='#'>
+                <a href='javascript:return false'>
                   <span className='icon'><IoChatbubbleSharp /></span>
                   My Channel
                 </a>
               </li>
               <li>
-                <a href='#'>
+                <a href='javascript:return false'>
                   <span className='icon'><FaPencilAlt /></span>
                   Edit Profile
                 </a>
