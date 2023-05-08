@@ -36,55 +36,7 @@ function Friends() {
   return (
     
     <div className='friends'>
-        <Header 
-          bgColor="bgColor"
-          title="Frends"
-          count={1}
-          leftItem="Manage"
-          rightItem={<IoSettingsSharp />}
-        />
-        <main>
-          <Search />
-          <section className='main_section friends'>
-            <div className='main_header'>
-              <h2>My Profile</h2>
-            </div>
-            <ul>
-              <FriendsList 
-                name = {myInfo.name}
-                email = {myInfo.email}
-                msg = {myInfo.message}
-                img = {myInfo.profile_img}
-                bg = {myInfo.bg}
-              />
-            </ul>
-          </section>
-          <section className='main_section friends'>
-            <div className='main_header'>
-              <h2>Friends</h2>
-            </div>
-            <ul>
-              {loading ? (
-                <Loading />
-              ) : <div>
-                  {users && users.map((user,idx) => (
-                    <FriendsList 
-                      key = {user.id}
-                      name = {user.username}
-                      email = {user.email}
-                      msg = {profile[idx].msg}
-                      img = {profile[idx].profile_img}
-                      bg = {profile[idx].bg}
-                    />
-                  ))}
-                </div>
-              }
-            </ul>
-          </section>
-        </main>
-        <Nav
-          className="friends"
-        />
+        <h1>변경했음</h1>
     </div>
   )
 }
